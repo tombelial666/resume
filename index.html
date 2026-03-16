@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artyom Bulgakov — Resume</title>
+  <style>
+    :root{
+      --text:#111827;
+      --muted:#4b5563;
+      --line:#d1d5db;
+      --accent:#0f172a;
+      --bg:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:#f3f4f6;
+      font-family: Inter, Roboto, Arial, sans-serif;
+      color:var(--text);
+      line-height:1.45;
+    }
+    .page{
+      width:1000px;
+      margin:24px auto;
+      background:var(--bg);
+      padding:44px 48px;
+      box-shadow:0 8px 30px rgba(0,0,0,.08);
+    }
+    .header{
+      display:grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap:24px;
+      align-items:end;
+      padding-bottom:20px;
+      border-bottom:2px solid var(--accent);
+    }
+    h1{
+      margin:0 0 6px 0;
+      font-size:34px;
+      line-height:1.1;
+      letter-spacing:.2px;
+    }
+    .role{
+      font-size:16px;
+      color:var(--muted);
+      font-weight:600;
+      margin-bottom:8px;
+    }
+    .target-line{
+      font-size:13px;
+      font-weight:700;
+      color:var(--accent);
+      letter-spacing:.2px;
+    }
+    .contact{
+      text-align:right;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .contact div{ margin:3px 0; }
+    .layout{
+      display:grid;
+      grid-template-columns: 280px 1fr;
+      gap:32px;
+      margin-top:24px;
+    }
+    .section{
+      margin-bottom:22px;
+    }
+    .section h2{
+      margin:0 0 10px 0;
+      font-size:12px;
+      letter-spacing:1.4px;
+      text-transform:uppercase;
+      color:var(--accent);
+    }
+    .summary{
+      font-size:14px;
+      color:var(--text);
+    }
+    .skill-group{
+      margin-bottom:12px;
+    }
+    .skill-group-title{
+      font-size:13px;
+      font-weight:700;
+      margin-bottom:4px;
+    }
+    .skill-group p{
+      margin:0;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .job{
+      margin-bottom:18px;
+      padding-bottom:16px;
+      border-bottom:1px solid var(--line);
+    }
+    .job:last-child{ border-bottom:none; padding-bottom:0; }
+    .job-head{
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      align-items:flex-start;
+      margin-bottom:6px;
+    }
+    .job-title{
+      font-size:16px;
+      font-weight:700;
+    }
+    .job-meta{
+      font-size:13px;
+      color:var(--muted);
+      text-align:right;
+      white-space:nowrap;
+    }
+    .company{
+      font-size:14px;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    ul{
+      margin:8px 0 0 18px;
+      padding:0;
+    }
+    li{
+      margin:0 0 6px 0;
+      font-size:13.5px;
+    }
+    .impact{
+      margin:0;
+      padding-left:18px;
+    }
+    .impact li{
+      color:var(--text);
+    }
+    @media print{
+      body{ background:#fff; }
+      .page{
+        width:auto;
+        margin:0;
+        box-shadow:none;
+        padding:18mm 16mm;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div>
+        <h1>Artyom Bulgakov</h1>
+        <div class="role">Senior QA Engineer / SDET | FinTech, Trading & Distributed Systems</div>
+        <div class="target-line">Target Roles: Senior QA Engineer, SDET | FinTech, Trading Platforms, Clearing Systems</div>
+      </div>
+      <div class="contact">
+        <div>Phuket, Thailand</div>
+        <div><a href="mailto:fhil2467@gmail.com">fhil2467@gmail.com</a></div>
+        <div>+66 90 256 3257</div>
+        <div><a href="https://www.linkedin.com/in/artyom-bulgakov/">linkedin.com/in/artyom-bulgakov</a></div>
+        <div><a href="https://github.com/tombelial666">github.com/tombelial666</a></div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <aside>
+        <div class="section">
+          <h2>Core Technical Skills</h2>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Testing</div>
+            <p>API Testing, Integration Testing, End-to-End Testing, Regression Testing, Microservices Testing</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Automation & Scripting</div>
+            <p>Python, Bash, Automation Testing, AI-assisted QA workflows</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Protocols & Messaging</div>
+            <p>WebSockets, FIX Protocol, Kafka, RabbitMQ</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Tools</div>
+            <p>Postman, Swagger, SoapUI, Fiddler, Azure DevOps, Jira, TestRail, Git</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Infrastructure & DevOps</div>
+            <p>Kubernetes, OpenShift, Octopus Deploy, Consul, IIS, Windows Services</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Observability</div>
+            <p>Kibana, Grafana, OpenSearch / ELK</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Databases</div>
+            <p>Microsoft SQL Server, MySQL, PostgreSQL, SQL Data Validation</p>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Cloud</div>
+            <p>AWS Lambda, Amazon S3</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Engineering Impact</h2>
+          <ul class="impact">
+            <li>Designed testing approaches for complex financial workflows including account opening, trading, and clearing processes.</li>
+            <li>Applied configuration-driven testing strategies to improve maintainability of regression suites for microservices systems.</li>
+            <li>Validated distributed system behavior through API testing, message-broker verification, and SQL-level data validation.</li>
+            <li>Used log analysis and monitoring tools to investigate failures across services and integration points.</li>
+            <li>Introduced AI-assisted QA workflows using Cursor IDE and LLM tools to accelerate creation of test documentation, scripts, and troubleshooting steps.</li>
+          </ul>
+        </div>
+      </aside>
+
+      <main>
+        <div class="section">
+          <h2>Professional Summary</h2>
+          <div class="summary">
+            Senior QA Engineer with 6+ years of experience testing complex fintech platforms, microservices architectures, and backend systems that process financial transactions. Specialized in API, integration, and end-to-end testing of trading and clearing infrastructure. Experienced in QA architecture, regression strategy design, and configuration-driven testing approaches for distributed systems. Strong hands-on work with REST APIs, WebSockets, FIX protocol, message brokers, and database-level validation. Collaborates closely with engineering and DevOps teams to ensure stable multi-environment deployments and reliable releases.
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Professional Experience</h2>
+
+          <div class="job">
+            <div class="job-head">
+              <div>
+                <div class="job-title">QA Engineer</div>
+                <div class="company">ETNA Trader</div>
+              </div>
+              <div class="job-meta">Oct 2024 – Present<br>Thailand</div>
+            </div>
+            <ul>
+              <li>Execute API, integration, and end-to-end testing of microservices responsible for trading and financial transaction processing.</li>
+              <li>Validate trading workflows and clearing logic using database-level verification and backend data checks.</li>
+              <li>Test asynchronous event-driven components using Kafka and RabbitMQ message pipelines.</li>
+              <li>Validate trading integrations using WebSockets and FIX protocol messaging.</li>
+              <li>Apply configuration-driven testing techniques for complex account-opening and financial service flows.</li>
+              <li>Collaborate with engineering and DevOps teams to validate deployments and multi-environment configurations.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-head">
+              <div>
+                <div class="job-title">QA Engineer</div>
+                <div class="company">ITQ Group</div>
+              </div>
+              <div class="job-meta">Oct 2021 – Oct 2024</div>
+            </div>
+            <ul>
+              <li>Performed integration and system testing for microservices-based banking platforms and payment engines.</li>
+              <li>Validated REST APIs and service communication using Postman and Swagger.</li>
+              <li>Investigated production incidents using log analysis and monitoring tools such as Kibana and Grafana.</li>
+              <li>Tested asynchronous event-driven systems using Kafka and RabbitMQ message brokers.</li>
+              <li>Tested containerized services and environments running in Kubernetes and OpenShift.</li>
+              <li>Conducted backend data validation and SQL-level verification for financial operations.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-head">
+              <div>
+                <div class="job-title">QA Engineer</div>
+                <div class="company">Aviakassa.com</div>
+              </div>
+              <div class="job-meta">Oct 2019 – Jul 2021</div>
+            </div>
+            <ul>
+              <li>Performed functional, regression, and exploratory testing for an online travel booking platform.</li>
+              <li>Tested REST and SOAP APIs and validated backend responses using Postman.</li>
+              <li>Executed cross-browser testing for responsive web interfaces.</li>
+              <li>Analyzed system logs using Kibana to identify defects and integration issues.</li>
+              <li>Maintained QA documentation, test cases, and bug tracking workflows in Jira.</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
