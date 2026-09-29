@@ -69,10 +69,10 @@ h1 { font-size: 27pt; }
 .contact { flex-direction: row; margin-top: 12px; gap: 4px 14px; font-size: 9pt; }
 h2 { font-size: 10pt; margin-bottom: 10px; }
 h3 { font-size: 12pt; }
-section { margin-top: 16px; }
-.summary { font-size: 11pt; }
+section { margin-top: 12px; }
+.summary { font-size: 10.5pt; }
 .target, .job p, li { font-size: 10pt; }
-.project { margin-bottom: 14px; break-inside: avoid; }
+.project { margin-bottom: 10px; break-inside: avoid; }
 .stack { font-size: 8.5pt; }
 .skills { grid-template-columns: 1fr 1fr; gap: 10px 22px; }
 dt, dd { font-size: 9pt; }
@@ -104,15 +104,15 @@ a { text-decoration: none; color: inherit; }
 </header>
 <section aria-labelledby="profile-heading">
 <h2 id="profile-heading">Professional profile</h2>
-<p class="summary">Senior QA Engineer with 6+ years across trading, clearing, banking, payments, and travel platforms. Design test architectures and build automation, diagnostic tools, and quality reporting systems. Own feature-level QA from requirements and code analysis through regression coverage, integration diagnostics, and release-readiness assessment.</p>
+<p class="summary">Senior QA Engineer with 6+ years of experience across trading, clearing, banking, payments, and travel platforms. Turn requirements, code changes, and integration behavior into test strategies, automated checks, and release assessments. Build tools that help teams investigate failures and understand product quality — including a QA metrics platform I independently designed and developed, whose data supports Board-level reporting.</p>
 <p class="target">Interested in QA Lead opportunities combining technical depth with ownership of test strategy, tooling, quality visibility, and team development.</p>
 </section>
 <section aria-labelledby="projects-heading">
 <h2 id="projects-heading">Selected engineering initiatives</h2>
 <article class="project">
 <h3>QA Metrics Platform &amp; Executive Reporting</h3>
-<p>Independently initiated, architected, and built a platform with seven quality and process metrics. Its data supports reporting to the Board of Directors; discuss progress and metrics directly with the CTO every week.</p>
-<p>Connected Azure DevOps work items and pull requests to metric calculations, data-completeness checks, and a dashboard with monthly comparisons and work-item drill-downs. Automated reporting and container builds.</p>
+<p>Independently initiated, designed, and built a QA metrics platform, from metric definitions and Azure DevOps data collection to a React/TypeScript dashboard and automated reporting.</p>
+<p>Implemented seven quality and process metrics with checks for incomplete data and drill-downs to source work items. The platform’s data supports Board-level reporting; review metrics and project progress directly with the CTO each week.</p>
 <p class="stack">Python · React / TypeScript · Azure DevOps REST API / WIQL · Azure Pipelines · Docker</p>
 </article>
 <article class="project">
@@ -141,15 +141,14 @@ a { text-decoration: none; color: inherit; }
 <h2 id="experience-heading">Professional experience</h2>
 <article class="job">
 <div class="job-head"><h3>QA Engineer · ETNA Trader</h3><span class="dates">Oct 2024 – Present · Thailand</span></div>
-<p>Design test architectures and build engineering tools for trading, clearing, and account management. Own feature-level QA from requirements and code analysis through automation, integration diagnostics, and release-readiness assessment.</p>
+<p>Develop automated tests and diagnostic tools for trading, clearing, and account-opening systems. Define feature and release coverage by tracing changes across services, integrations, and data flows. Investigate failures from order messages and service configuration through to database state, and provide reproducible findings for developers and integration partners.</p>
 <ul>
-<li>Independently built the QA metrics platform described above, from metric definitions and data integration through implementation, validation, and delivery; its data supports Board-level reporting.</li>
 <li>Build API, UI, and database regression suites with Python/pytest, Playwright, and C#/NUnit, including contract checks, negative scenarios, configuration-driven coverage, and requirements-to-test traceability.</li>
 <li>Design risk-based release coverage from code changes and system dependencies; define exit criteria and provide release-readiness assessments with documented blockers.</li>
-<li>Investigate failures across OMS, FIX gateways, WebSockets, APIs, and databases. Validate equity and options order lifecycles, routing, cancellation and replacement, account-opening integrations, and asynchronous Kafka/RabbitMQ flows.</li>
+<li>Validate equity and options order lifecycles across OMS, FIX gateways, and WebSockets, including routing, cancellation, and replacement. Test account-opening integrations and asynchronous Kafka/RabbitMQ flows.</li>
 <li>Configure and troubleshoot integration environments using Octopus Deploy, Consul, and IIS; validate document-ingestion flows across SFTP, AWS Lambda, S3, and downstream data.</li>
 <li>Test authentication resilience, rate limiting, and spoofed-header handling; run JMeter load checks with SQL Server performance and wait-stat analysis.</li>
-<li>Created AIQA and develop Local Code Intelligence to support reusable engineering workflows and source-grounded risk analysis. Consolidated Omnibus architecture, setup, and integration diagnostics into a documentation hub.</li>
+<li>Consolidated Omnibus architecture, setup, and integration diagnostics into a documentation hub with configuration guidance and troubleshooting references.</li>
 </ul>
 </article>
 <article class="job">
